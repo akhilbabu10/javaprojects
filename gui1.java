@@ -15,7 +15,7 @@ public class gui1 implements  ActionListener
     static JTextField t_p_number=new JTextField(8);
     static JTextField t_dob=new JTextField(8);
     static JTextField t_father_name=new JTextField(8);
-    static JTextField t_moters_name=new JTextField(8);
+    static JTextField t_mothers_name=new JTextField(8);
     static JTextField t_house_name=new JTextField(8);
     static JComboBox j_sex=new JComboBox(cb1);
     static JTextField t_pass_word=new JTextField();
@@ -77,7 +77,7 @@ public class gui1 implements  ActionListener
         jf.add(l1);
         jf.add(t_father_name);
         jf.add(new JLabel("mother's name"));
-        jf.add(t_moters_name);
+        jf.add(t_mothers_name);
         jf.add(new JLabel("house name"));
         jf.add(t_house_name);
         jf.add(new JLabel("sex"));
